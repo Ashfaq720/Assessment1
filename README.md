@@ -21,18 +21,23 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 # Assessment1
 
+--
 └── views/
 ├── layouts/
 │ └── app.blade.php # master layout with meta stacks
 ├── partials/
 │ ├── header.blade.php
 │ └── footer.blade.php
-└── blog/
-├── index.blade.php
-└── show.blade.php
-app/
-└── Models/
-└── Post.php # title, slug, body (html), image, author, published_at
+└── views/
+├── categories.blade.php
+└── profile.blade.php
+└── contact.blade.php
+└── login.blade.php
+└── home.blade.php
+└── register.blade.php
+└── single-blog.blade.php
+
+--
 routes/
 └── web.php
 
