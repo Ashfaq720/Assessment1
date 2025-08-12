@@ -19,9 +19,8 @@ Editor-friendly: assume posts are stored as HTML or Markdown converted to HTML �
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 =======
 
-
 # Assessment1
->>>>>>> 7ddbc398cd7bd2f4b1f789f2675c60b537cf60f1
+
 └── views/
 ├── layouts/
 │ └── app.blade.php # master layout with meta stacks
@@ -36,7 +35,6 @@ app/
 └── Post.php # title, slug, body (html), image, author, published_at
 routes/
 └── web.php
-
 
 ---
 
